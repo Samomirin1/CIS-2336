@@ -1,0 +1,145 @@
+/* External CSS for My Favorite Vacations */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(248, 244, 244);
+    padding: 20px;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #007bff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width:200px; 
+    
+}
+
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: left;
+}
+
+details {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #007bff;
+    color: #fff;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+aside {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Link Styles */
+a:hover {
+    color: #333;
+}
+
+body {background-color:#ddd;}
+/* -----------Add a black background color to the top navigation */
+.topnav {
+background-color: #333;
+overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+thead{background-color: rgb(34, 255, 0);
+
+}
+tbody{background-color:rgb(249, 255, 126);}
+Middle{background-color: white; }
+table {border-collapse:collapse;width: 100%; leng}
+th, td {padding:8px;
+}
+  
+tr:nth-child(even) {background-color: #fff;}
+
+#contact {text-align: center;}
+#form1 {text-align: left;
+background-color: white; width: 675px;margin:0 auto;}
+fieldset{
+    border: 0px ;
+    width: 400px;
+    min-height: 200x;
+    margin: 0 auto;
+  }
+  
+    #name{width: 650px; height: 40px;}
+  .Phone {width: 650px; height: 40px;}
+  .Email {width: 650px; height: 40px;}
+  .interests {width: 650px; height: 100px;}
+  .legend {text-align: left;
+color: #007bff;font-size: 25px; font-weight: bold;}
+button {background-color: rgb(95, 187, 95);color: white;
+height: 35px; width: 650px;}
